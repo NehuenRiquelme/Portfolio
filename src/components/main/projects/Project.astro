@@ -80,3 +80,16 @@ const { technologies, title, img, description, link } = Astro.props;
     transition: 0.3s ease-in-out;
     pointer-events: none;
   }
+  .li-project:hover {
+    transform: translateY(-10px);
+  }
+  .li-project img {
+    position: relative;
+    display: block;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: left top;
+    user-select: none;
+    pointer-events: none;
+  }
