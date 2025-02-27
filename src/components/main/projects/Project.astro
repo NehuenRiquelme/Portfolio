@@ -16,3 +16,22 @@ export interface Props {
 const { technologies, title, img, description, link } = Astro.props;
 ---
 
+<li class="li-project">
+    <img src={img} alt={title} loading="lazy" />
+    <p class="title-project">{title}</p>
+    <p class="description-project">
+      {description}
+    </p>
+    <p class="title-technologies">tecnologías usadas</p>
+    <div class="container-technologies">
+      {
+  technologies?.map(({ icon }) => {
+          const IconComponent = icon ? getIconComponent(icon) : null;
+          return <i>{IconComponent && <IconComponent />}</i>;
+        })
+      }
+    </div>
+    <div class="container-link-project">
+      <a href={link} target="_blank">Ver más</a>
+    </div>
+  </li>
