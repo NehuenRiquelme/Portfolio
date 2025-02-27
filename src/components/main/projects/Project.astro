@@ -1,24 +1,18 @@
 ---
-import { projects } from "../../../const/const.js";
-import Project from "./Project.astro";
+import { getIconComponent } from "../../../icons/IconAll.astro";
+
+type Technology = {
+  icon?: string;
+};
+
+export interface Props {
+  title: string;
+  img: string;
+  description: string;
+  technologies?: Technology[];
+  link: string;
+}
+
+const { technologies, title, img, description, link } = Astro.props;
 ---
 
-<section class="section-projects">
-  <div class="container-projects">
-    <h2 class="title-projects" id="proyectos">Proyectos</h2>
-    <div>
-      <ul class="ul-projects">
-        {
-          projects.map(({ description, img, link, technologies, title }) => (
-            <Project
-              img={img}
-              description={description}
-              link={link}
-              title={title}
-              technologies={technologies}
-            />
-          ))
-        }
-      </ul>
-  </div>
-</section>
