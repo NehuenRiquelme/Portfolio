@@ -80,4 +80,22 @@ export const skills = [
         icon: IconKeys.firebase,
     },
 ];
+export const projects = [
+    {
+      img: "../public/img/pasonInterfaz.webp",
+      title: "Pason",
+      link: "https://nehuenriquelme.github.io/pagina-pason/",
+      description: `interfaz visual para un informe de la empresa pason `,
+      technologies: [
+        {
+          icon: IconKeys.html,
+        },
+        {
+          icon: IconKeys.css,
+        },
+        {
+          icon: IconKeys.javaScript,  
+        },
+      ],
+    },];
   
