@@ -35,7 +35,7 @@ const { technologies, title, img, description, link } = Astro.props;
       <a href={link} target="_blank">Ver más</a>
     </div>
   </li>
-  
+
   <style>
     .li-project {
       position: relative;
@@ -55,3 +55,18 @@ const { technologies, title, img, description, link } = Astro.props;
       justify-content: space-between;
       flex-direction: column;
     }
+    
+  .li-project:nth-child() {
+    min-height: 100%;
+  }
+  .li-project::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.73);
+    z-index: -1;
+    bottom: 0;
+    transition: 0.3s ease-in-out;
+    pointer-events: none;
+  }
