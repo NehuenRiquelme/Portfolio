@@ -24,63 +24,74 @@
           autoplay></lottie-player>
       </div>
     </div>
-</section>
-<style>
-
-  .section-about {
-    position: relative;
-   
-  }
-  .container-about {
-    position: relative;
-    width: 90%;
-    display: flex;
-    margin: 0 auto;
-    max-width: 1355px;
-  }
-
-  .container-text-about {
-    position: relative;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .title-about {
-    position: relative;
-    display: block;
-    font-size: 27px;
-    padding: 10px 0;
-    color: #f6f6f9;
-    width: 100%;
-    font-weight: 800;
-    scroll-margin-top: 80px;
-  }
-  .container-text-about p {
-    font-size: 17px;
-    color: #f6f6f9;
-    text-align: left;
-    letter-spacing: 1px;
-  }
-
-  /*  responsive  */
-
-  @media (max-width: 900px) {
-    /*Resposivo de la seccion sobre mi*/
+  </div>
+  <style>
+    .section-about {
+      position: relative;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(126, 126, 126, 0.3) -20%,
+          transparent 10%
+        ),
+        linear-gradient(
+          to right,
+          rgba(126, 126, 126, 0.3) -10%,
+          transparent 10%
+        ),
+        linear-gradient(to left, rgba(126, 126, 126, 0.3) -10%, transparent 10%);
+      background-color: rgb(26, 29, 41);
+    }
     .container-about {
-      flex-direction: column;
+      position: relative;
+      width: 90%;
+      display: flex;
+      margin: 0 auto;
+      max-width: 1355px;
     }
-    .container-svg-about {
-      width: 100%;
-    }
-    .container-svg {
-      justify-content: start;
-      align-items: end;
-      padding: 0;
-    }
+
     .container-text-about {
-      width: 100%;
-      padding: 10px 0;
+      position: relative;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-  }
-</style>
+    .title-about {
+      position: relative;
+      display: block;
+      font-size: 27px;
+      padding: 10px 0;
+      color: #f6f6f9;
+      width: 100%;
+      font-weight: 800;
+      scroll-margin-top: 80px;
+    }
+    .container-text-about p {
+      font-size: 17px;
+      color: #f6f6f9;
+      text-align: left;
+      letter-spacing: 1px;
+    }
+
+    /*  responsive  */
+
+    @media (max-width: 900px) {
+      /*Resposivo de la seccion sobre mi*/
+      .container-about {
+        flex-direction: column;
+      }
+      .container-svg-about {
+        width: 100%;
+      }
+      .container-svg {
+        justify-content: start;
+        align-items: end;
+        padding: 0;
+      }
+      .container-text-about {
+        width: 100%;
+        padding: 10px 0;
+      }
+    }
+  </style>
+</section>
