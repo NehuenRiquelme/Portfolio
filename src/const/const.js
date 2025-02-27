@@ -21,3 +21,16 @@ export const studies = [
     },
 
   ];
+  export const IconKeys = {
+    html: "html",
+    css: "css",
+    javaScript: "javaScript",
+    react: "react",
+    astro: "astro",
+    sass:"sass",
+    bootstrap: "bootstrap",
+    git: "git",
+    github: "github",
+    vite: "vite",
+    firebase: "firebase",
+  };
