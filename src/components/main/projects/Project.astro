@@ -35,3 +35,23 @@ const { technologies, title, img, description, link } = Astro.props;
       <a href={link} target="_blank">Ver más</a>
     </div>
   </li>
+  
+  <style>
+    .li-project {
+      position: relative;
+      list-style: none;
+      border: 1px solid #848a98;
+      overflow: hidden;
+      max-width: 380px;
+      min-width: 300px;
+      width: 100%;
+      border-radius: 2px;
+      transition: transform, box-shadow, 0.3s;
+      border-radius: 7px;
+      background-color: #848a98;
+      z-index: 1;
+      min-height: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
