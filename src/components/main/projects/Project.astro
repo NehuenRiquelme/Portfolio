@@ -70,3 +70,13 @@ const { technologies, title, img, description, link } = Astro.props;
     transition: 0.3s ease-in-out;
     pointer-events: none;
   }
+  .li-project:hover::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+    bottom: 0;
+    transition: 0.3s ease-in-out;
+    pointer-events: none;
+  }
