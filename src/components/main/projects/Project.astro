@@ -121,3 +121,16 @@ const { technologies, title, img, description, link } = Astro.props;
   .description-project::first-letter {
     text-transform: capitalize;
   }
+  .title-technologies::first-letter {
+    text-transform: capitalize;
+  }
+
+  .container-technologies {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    padding: 10px 10px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    color: white;
+  }
