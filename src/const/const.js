@@ -34,3 +34,50 @@ export const studies = [
     vite: "vite",
     firebase: "firebase",
   };
+export const skills = [
+    {
+        title: "Html",
+        icon: IconKeys.html,
+    },
+    {
+        title: "Css",
+        icon: IconKeys.css,
+    },
+    {
+        title: "JavaScript",
+        icon: IconKeys.javaScript,
+    },
+    {
+        title: "Astro",
+        icon: IconKeys.astro,
+    },
+    {
+        title: "Sass",
+        icon: IconKeys.sass,
+    },
+    {
+        title: "Bootstrap",
+        icon: IconKeys.bootstrap,
+    },
+    {
+        title: "React Js",
+        icon: IconKeys.react,
+    },
+    {
+        title: "Git",
+        icon: IconKeys.git,
+    },
+    {
+        title: "Github",
+        icon: IconKeys.github,
+    },
+    {
+        title: "Vite",
+        icon: IconKeys.vite,
+    },
+    {
+        title: "Firebase",
+        icon: IconKeys.firebase,
+    },
+];
+  
