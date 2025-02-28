@@ -1,0 +1,24 @@
+---
+import { studies } from "../../../const/const";
+---
+
+<section class="section_studies">
+  <div class="linear-grandient-1"></div>
+  <div class="content_studies">
+    <h3 class="title-studies" id="studies">Estudios</h3>
+    <ul class="ul-studies">
+      {
+        studies.map(({ date, title, corporation }) => (
+          <li class="li-studies">
+            <span class="circle" />
+            <div>
+              <h3>{title}</h3>
+              <p>{corporation}</p>
+              <span>{date}</span>
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>
