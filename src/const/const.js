@@ -84,7 +84,7 @@ export const skills = [
 
 export const projects = [
   {
-    img: "../../public/img/pasonInterfaz.webp",
+    img: "./img/pasonInterfaz.webp",
     title: "Pason",
     link: "https://nehuenriquelme.github.io/pagina-pason/",
     description: `interfaz visual para un informe de la empresa pason `,
@@ -101,7 +101,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../public/img/e-commerce.webp",
+    img: "./img/e-commerce.webp",
     title: "E-commerce",
     link: "https://e-commerce-nr.vercel.app/",
     description: `E-commerce de venta de productos de tecnologia`,
@@ -124,7 +124,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../public/img/Login.webp", 
+    img: "./img/Login.webp", 
     title: "Formulario de cotizacion",
     link: "https://formulario-cotizacion.vercel.app",
     description: `Formulario de cotizacion de productos`,
