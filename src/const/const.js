@@ -97,5 +97,51 @@ export const projects = [
           icon: IconKeys.javaScript,  
         },
       ],
-    },];
+    },{ img : "./public/img/e-commerce.webp",
+    title: "E-commerce",
+    link:"https://e-commerce-nr.vercel.app/",
+    description: `E-commerce de venta de productos de tecnologia`,
+    technologies: [
+      {
+        icon: IconKeys.html,
+      },
+      {
+        icon: IconKeys.css,
+      },
+      {
+        icon: IconKeys.javaScript,  
+      },
+      {
+        icon: IconKeys.react,
+      },
+      {
+        icon: IconKeys.firebase,
+      },
+    ],
+
+    },{
+      img: "./public/img/Login.webp",
+      title: "Formulario de cotizacion",
+      link: "formulario-cotizacion.vercel.app",
+      description: `Formulario de cotizacion de productos`,
+      technologies: [
+        {
+          icon: IconKeys.html,
+        },
+        {
+          icon: IconKeys.css,
+        },
+        {
+          icon: IconKeys.javaScript,  
+        },
+        {
+          icon: IconKeys.react,
+        },
+        {
+          icon: IconKeys.firebase,
+        },{
+          icon: IconKeys.bootstrap,
+        }
+      ],
+    }];
   
